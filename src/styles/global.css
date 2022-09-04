@@ -25,69 +25,68 @@
 
 	html {
 		@apply h-full border-t-2 border-textColor scroll-smooth;
-		font-family: 'Kantumruy Pro';
+		font-family: 'Newsreader';
 	}
 
 	html body {
 		@apply h-full max-w-3xl mx-auto px-8 pt-16  font-normal antialiased text-sm flex flex-col text-textColor bg-bgColor;
-		font-family: 'Kantumruy Pro';
+		font-family: 'Newsreader';
 	}
 }
 @tailwind components;
 @tailwind utilities;
 
-/* kantumruy-pro-100 - latin */
+/* newsreader-200 - latin */
 @font-face {
-  font-family: 'Kantumruy Pro';
+  font-family: 'Newsreader';
   font-style: normal;
-  font-weight: 100;
+  font-weight: 200;
   src: local(''),
-	   url('/src/assets/fonts/kantumruy-pro-v3-latin-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-	   url('/src/assets/fonts/kantumruy-pro-v3-latin-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	   url('/src/assets/fonts/newsreader-v19-latin-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+	   url('/src/assets/fonts/newsreader-v19-latin-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* kantumruy-pro-regular - latin */
+/* newsreader-regular - latin */
 @font-face {
-  font-family: 'Kantumruy Pro';
+  font-family: 'Newsreader';
   font-style: normal;
   font-weight: 400;
   src: local(''),
-	   url('/src/assets/fonts/kantumruy-pro-v3-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-	   url('/src/assets/fonts/kantumruy-pro-v3-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	   url('/src/assets/fonts/newsreader-v19-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+	   url('/src/assets/fonts/newsreader-v19-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* kantumruy-pro-700 - latin */
+/* newsreader-700 - latin */
 @font-face {
-  font-family: 'Kantumruy Pro';
+  font-family: 'Newsreader';
   font-style: normal;
   font-weight: 700;
   src: local(''),
-	   url('/src/assets/fonts/kantumruy-pro-v3-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-	   url('/src/assets/fonts/kantumruy-pro-v3-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	   url('/src/assets/fonts/newsreader-v19-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+	   url('/src/assets/fonts/newsreader-v19-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* kantumruy-pro-100italic - latin */
+/* newsreader-200italic - latin */
 @font-face {
-  font-family: 'Kantumruy Pro';
+  font-family: 'Newsreader';
   font-style: italic;
-  font-weight: 100;
+  font-weight: 200;
   src: local(''),
-	   url('/src/assets/fonts/kantumruy-pro-v3-latin-100italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-	   url('/src/assets/fonts/kantumruy-pro-v3-latin-100italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	   url('/src/assets/fonts/newsreader-v19-latin-200italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+	   url('/src/assets/fonts/newsreader-v19-latin-200italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* kantumruy-pro-italic - latin */
+/* newsreader-italic - latin */
 @font-face {
-  font-family: 'Kantumruy Pro';
+  font-family: 'Newsreader';
   font-style: italic;
   font-weight: 400;
   src: local(''),
-	   url('/src/assets/fonts/kantumruy-pro-v3-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-	   url('/src/assets/fonts/kantumruy-pro-v3-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	   url('/src/assets/fonts/newsreader-v19-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+	   url('/src/assets/fonts/newsreader-v19-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* kantumruy-pro-700italic - latin */
+/* newsreader-700italic - latin */
 @font-face {
-  font-family: 'Kantumruy Pro';
+  font-family: 'Newsreader';
   font-style: italic;
   font-weight: 700;
   src: local(''),
-	   url('/src/assets/fonts/kantumruy-pro-v3-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-	   url('/src/assets/fonts/kantumruy-pro-v3-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	   url('/src/assets/fonts/newsreader-v19-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+	   url('/src/assets/fonts/newsreader-v19-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
