@@ -1,5 +1,5 @@
 {
-  "index_name": "cactus-index",
+  "index_name": "cactus",
   "start_urls": ["https://cactus.paulapplegate.com"],
 "selectors": {
       "lvl0": ".page-heading",

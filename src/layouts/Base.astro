@@ -38,6 +38,12 @@ const {
 				colorThemeMetaTag.setAttribute("content", siteMeta.themeColorLight);
 			}
 		</script>
+		<!-- Before the closing </head> -->
+		<link
+		  rel="stylesheet"
+		  href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"
+		/>
+
 	</head>
 	<body>
 		<SkipLink />
@@ -46,5 +52,22 @@ const {
 			<slot />
 		</main>
 		<Footer />
+		<!-- Before the closing </body> -->
+		<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+		<script>
+		  docsearch({
+			// Your Search API Key
+			apiKey: 'LMIA09K0EW',
+			// The index populated by the DocSearch scraper
+			indexName: 'cactus',
+			// Your Algolia Application ID
+			appId: '45bc20c9eccd6ff952f21aa9954b1ad6',
+			// Replace inputSelector with a CSS selector
+			// matching your search input
+			inputSelector: 'div#catcus',
+			// Set debug to true to inspect the dropdown
+			debug: false,
+		  });
+		</script>
 	</body>
 </html>
