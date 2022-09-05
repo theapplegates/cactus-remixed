@@ -17,6 +17,7 @@ const {
 
 <html lang={siteMeta.lang}>
 	<head>
+	<div id="docsearch"></div>
 		<BaseHead title={title} description={description} image={image} />
 		<script define:vars={{ siteMeta }}>
 			const root = document.documentElement;
@@ -57,17 +58,19 @@ const {
 		<script>
 		  docsearch({
 			// Your Search API Key
-			apiKey: 'LMIA09K0EW',
+			apiKey: '0dde9b30797f9dcc894da6ba1a608eaa',
 			// The index populated by the DocSearch scraper
 			indexName: 'cactus',
 			// Your Algolia Application ID
-			appId: '0dde9b30797f9dcc894da6ba1a608eaa',
+			appId: 'LMIA09K0EW',
 			// Replace inputSelector with a CSS selector
 			// matching your search input
-			inputSelector: 'div#catcus',
+			// container: '#docsearch',
+			inputSelector: '#docsearch',
 			// Set debug to true to inspect the dropdown
 			debug: false,
 		  });
 		</script>
+		
 	</body>
 </html>
